@@ -34,4 +34,12 @@ npm install -g truffle
 Truffle commands:
 ```
 truffle init
+truffle compile
+truffle migrate
+truffle console
+```
+
+TestRPC
+```
+testrpc
 ```
