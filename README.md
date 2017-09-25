@@ -30,3 +30,8 @@ Truffle:
 ```
 npm install -g truffle
 ```
+
+Truffle commands:
+```
+truffle init
+```
