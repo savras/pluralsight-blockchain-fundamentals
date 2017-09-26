@@ -36,7 +36,14 @@ Truffle commands:
 truffle init
 truffle compile
 truffle migrate
+truffle migrate --network production
 truffle console
+```
+Get context in Truffle console
+```
+var ctx;
+HelloWorld.deployed().then(function(deployed) { ctx = deployed});	// Get async handler
+ctx.SayHello.call();
 ```
 
 TestRPC
