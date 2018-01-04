@@ -1,13 +1,15 @@
 module.exports = {
   networks: {
     development: {
-      host: "localhost",
+      host: "127.0.0.1",
       port: 8545,
+      gas: 500000,        
       network_id: "*" // Match any network id
     },
-    development: {
-      host: "GetAzureRpcEndpoint",
+    production: {
+      host: "bclpof76b.southeastasia.cloudapp.azure.com",
       port: 8545,
+      gas: 500000,        
       network_id: "*" // Match any network id
     }
   }

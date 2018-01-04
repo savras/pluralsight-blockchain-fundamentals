@@ -1,4 +1,6 @@
 # pluralsight-blockchain-fundamentals
+
+Use 'truffle.cmd' instead of just 'truffle'.
 Blockchain fundamentals from Pluralsight
 
 Powershell:
