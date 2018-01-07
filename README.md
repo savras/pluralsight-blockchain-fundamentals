@@ -52,3 +52,8 @@ TestRPC
 ```
 testrpc
 ```
+
+Run Dev
+```
+npm run dev
+```
